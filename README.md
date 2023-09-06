@@ -1,3 +1,19 @@
+# FORK CHANGE
+
+Changing dockerfile (tested on MacOS Intel)
+
+Docker run
+```bash
+sudo docker build -t local/rvcpy ./
+
+sudo docker run -it -p 8080:7865 local/rvcpy
+```
+
+# FUTUR FORK CHANGE
+
+I will change Dockerfile for download a needed models and add persistant volumes.
+
+
 # 7/28 Changelog:
 - Undo SQL change for the sake of stability, uses csv now
 - Merging checkpoints bug has been resolved
